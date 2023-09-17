@@ -11,6 +11,15 @@ body {
   line-height: 25px;
 }
 
+.container-center {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 22px 0 31px;
+}
+
 .header-title {
   color: #005FA3;
   font-family: 'Merriweather';
@@ -48,6 +57,7 @@ body {
   font-size: 24px;
   font-weight: 900;
   line-height: 33px;
+  margin-bottom: 40px;
 }
 
 .sub-title {
@@ -58,13 +68,25 @@ body {
   line-height: 69px;
 }
 
+.button-blue {
+  color: #FFFFFF;
+  background: #005FA3;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
 .desc {
+  padding: 170px 0;
   background-color: #686765;
-  background-image: url(../img/bg/city.jpg);
+  background-image: url(../img/bg/city-bg.jpg);
 }
 
 .desc-text {
   color: #FFFFFF;
+  margin: 0 0 131px;
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 700;
@@ -77,10 +99,27 @@ body {
   font-size: 25px;
   font-weight: 400;
   line-height: 34px;
+  background: #005FA3;
+  display: block;
+  width: 333px;
+  height: 84px;
+}
+
+.service {
+  padding: 140px 0;
+}
+
+.service-list {
+  margin-top: 102px;
 }
 
 .service-item {
   background: url(../img/bg/service-bg.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  width: 350px;
+  min-height: 360px;
+  padding: 261px 118px 45px 45px;
 }
 
 .service-item-title {
@@ -94,20 +133,40 @@ body {
   text-decoration: none;
 }
 
-.about-company {
+.about {
+  padding: 140px 0;
+}
+
+.about-desc {
+  margin-top: 60px;
+  width: 445px;
+  min-height: 245px;
+}
+
+.about-company-sub-title {
   color: #005FA3;
+}
+
+.about-item {
+  width: 255px;
+  height: 255px;
+  padding: 30px 0 40px 40px;
+  box-sizing: border-box;
 }
 
 .about-item-stat {
   font-size: 55px;
   font-weight: 900;
   line-height: 66px;
+  margin: 0 140px 30px 0;
 }
 
 .about-item-desc {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
+  margin-bottom: 47px;
+  width: 147px;
 }
 
 .about-item-link {
@@ -116,36 +175,47 @@ body {
   line-height: 17px;
 }
 
-.review-button {
-  color: #FFFFFF;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
+.clients {
+  padding: 85px 0 91px;
 }
 
-.review-text {
+.review {
+  padding: 174px 0 120px;
+}
+
+.review-item-text {
   font-size: 18px;
   font-weight: 300;
   line-height: 25px;
 }
 
-.review-author-name {
+.review-item-author-name {
   font-size: 18px;
   font-weight: 900;
   line-height: 25px;
 }
 
-.review-author-position {
+.review-item-author-position {
   color: #4F4F4F;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
 }
 
+.advantage {
+  padding: 102px 0 112px;
+}
+
 .advantage-item-text {
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
+}
+
+.contactus {
+  background-color: #363635;
+  background-image: url(../img/bg/city-bg.jpg);
+  padding: 122px 0 140px;
 }
 
 .contactus-title {
@@ -172,6 +242,7 @@ body {
 }
 
 .footer-shield {
+  padding: 50px 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 19px;
