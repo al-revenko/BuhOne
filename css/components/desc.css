@@ -20,7 +20,9 @@
   font-weight: 400;
   line-height: 34px;
   background: #005FA3;
-  display: block;
   width: 333px;
   height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

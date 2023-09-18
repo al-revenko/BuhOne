@@ -12,21 +12,31 @@
   color: #005FA3;
 }
 
-.about-item {
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-list-item {
   width: 255px;
-  min-height: 255px;
+  height: 255px;
   padding: 30px 40px 40px;
   box-sizing: border-box;
 }
 
-.about-item-stat {
+.about-list-item:nth-of-type(n+3) {
+  margin-top: 30px;
+}
+
+.about-list-item-stat {
   font-size: 55px;
   font-weight: 900;
   line-height: 66px;
   margin: 0 140px 30px 0;
 }
 
-.about-item-desc {
+.about-list-item-desc {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -34,7 +44,7 @@
   width: 147px;
 }
 
-.about-item-link {
+.about-list-item-link {
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;

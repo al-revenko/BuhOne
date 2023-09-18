@@ -20,8 +20,16 @@
   margin-bottom: 80px;
 }
 
+.contactus-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .contactus-item-link {
   text-decoration: none;
+  display: flex;
+  gap: 10px;
 }
 
 .contactus-item-text {
@@ -36,4 +44,6 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 19px;
+  display: flex;
+  justify-content: space-between;
 }

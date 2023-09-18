@@ -4,4 +4,8 @@
 
 .client-list {
   margin-top: 42px;
+  display: flex;
+  width: 1110px;
+  flex-wrap: wrap;
+  gap: 30px 30px;
 }

@@ -4,6 +4,14 @@
 
 .advantage-list {
   margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage-list-item {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
 }
 
 .advantage-list-item-text {

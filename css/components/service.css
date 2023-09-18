@@ -4,6 +4,9 @@
 
 .service-list {
   margin-top: 102px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
 }
 
 .service-item {
@@ -12,7 +15,9 @@
   box-sizing: border-box;
   width: 350px;
   min-height: 360px;
-  padding: 261px 118px 45px 45px;
+  padding: 45px 45px;
+  display: flex;
+  align-items: end;
 }
 
 .service-item-title {

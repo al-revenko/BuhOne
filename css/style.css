@@ -25,6 +25,14 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
 .alter-bg {
   background: #EBEBEB;
 }
