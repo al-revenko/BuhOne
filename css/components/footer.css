@@ -1,0 +1,35 @@
+.contactus {
+  background-color: #363635;
+  background-image: url(/img/bg/city-bg.jpg);
+  padding: 122px 0 140px;
+}
+
+.contactus-title {
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 69px;
+}
+
+.contactus-desc {
+  color: #FFFFFF;
+}
+
+.contactus-item-link {
+  text-decoration: none;
+}
+
+.contactus-item-text {
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.footer-shield {
+  padding: 50px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}

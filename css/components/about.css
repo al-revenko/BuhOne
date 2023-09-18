@@ -1,0 +1,41 @@
+.about {
+  padding: 140px 0;
+}
+
+.about-desc {
+  margin-top: 60px;
+  width: 445px;
+  min-height: 245px;
+}
+
+.about-company-sub-title {
+  color: #005FA3;
+}
+
+.about-item {
+  width: 255px;
+  height: 255px;
+  padding: 30px 0 40px 40px;
+  box-sizing: border-box;
+}
+
+.about-item-stat {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 66px;
+  margin: 0 140px 30px 0;
+}
+
+.about-item-desc {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 47px;
+  width: 147px;
+}
+
+.about-item-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}

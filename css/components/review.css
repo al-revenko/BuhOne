@@ -1,0 +1,22 @@
+.review {
+  padding: 174px 0 120px;
+}
+
+.review-item-text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.review-item-author-name {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+}
+
+.review-item-author-position {
+  color: #4F4F4F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}

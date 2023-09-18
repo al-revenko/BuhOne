@@ -1,0 +1,27 @@
+.service {
+  padding: 140px 0;
+}
+
+.service-list {
+  margin-top: 102px;
+}
+
+.service-item {
+  background: url(/img/bg/service-bg.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  width: 350px;
+  min-height: 360px;
+  padding: 261px 118px 45px 45px;
+}
+
+.service-item-title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.service-item-link {
+  text-decoration: none;
+}
