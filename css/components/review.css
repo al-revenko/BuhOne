@@ -2,19 +2,62 @@
   padding: 174px 0 120px;
 }
 
-.review-item-text {
+.review-button {
+  width: 270px;
+  min-height: 60px;
+}
+
+.review-slider-button {
+  background: #005FA3;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  opacity: 40%;
+}
+
+.review-slider-button-active {
+  opacity: 100%;
+}
+
+.review-slider-button-arrow {
+  width: 60px;
+  height: 60px;
+  opacity: 20%;
+  border: 0;
+  padding: 0;
+  background: #005FA3;
+}
+
+.review-slider-button-arrow-active {
+  opacity: 100%;
+}
+
+.review-list {
+  margin-top: 80px;
+}
+
+.review-list-item {
+  width: 1110px;
+  height: 320px;
+  padding: 45px 95px;
+}
+
+.review-list-item-text {
   font-size: 18px;
   font-weight: 300;
   line-height: 25px;
+  margin-bottom: 58px;
 }
 
-.review-item-author-name {
+.review-list-item-author-name {
   font-size: 18px;
   font-weight: 900;
   line-height: 25px;
 }
 
-.review-item-author-position {
+.review-list-item-author-position {
   color: #4F4F4F;
   font-size: 14px;
   font-weight: 400;

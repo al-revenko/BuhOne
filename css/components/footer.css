@@ -10,10 +10,14 @@
   font-size: 48px;
   font-weight: 900;
   line-height: 69px;
+  margin-bottom: 60px;
 }
 
 .contactus-desc {
   color: #FFFFFF;
+  width: 445px;
+  min-height: 43px;
+  margin-bottom: 80px;
 }
 
 .contactus-item-link {
