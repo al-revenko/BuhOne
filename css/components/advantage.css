@@ -1,16 +1,20 @@
 .advantage {
-  padding: 102px 0 112px;
+  padding: 102px 0 75px;
 }
 
 .advantage-list {
-  margin-top: 110px;
+  margin-top: 27px;
   display: flex;
   justify-content: space-between;
 }
 
 .advantage-list-item {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  width: 348px;
+  height: 316px;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -19,3 +23,4 @@
   font-weight: 700;
   line-height: 48px;
 }
+

@@ -20,6 +20,36 @@ body {
   line-height: 25px;
 }
 
+input {
+  width: 255px;
+  padding: 0 0 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 105px;
+  resize: none;
+  padding: 0 0 84px;
+  box-sizing: border-box;  
+}
+
+input, 
+textarea {  
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: transparent;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+input::placeholder, 
+textarea::placeholder {
+  color: #BDBDBD;
+}
+
 .container-center {
   width: 1110px;
   margin: 0 auto;
@@ -27,6 +57,10 @@ body {
 
 .flex-container {
   display: flex;
+}
+
+.jc-space-between {
+  justify-content: space-between;
 }
 
 .half-width {
@@ -53,7 +87,9 @@ body {
   line-height: 69px;
 }
 
-.button-blue {
+.button-blue {  
+  width: 270px;
+  min-height: 60px;
   color: #FFFFFF;
   background: #005FA3;
   border: none;
@@ -61,6 +97,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .display-none {

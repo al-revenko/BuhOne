@@ -39,11 +39,34 @@
   line-height: 29px;
 }
 
+.contactus-form {
+  width: 540px;
+}
+
+.contactus-form-wrp {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 35px;
+  box-sizing: border-box;
+}
+
+.contactus-form-label {
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contactus-form-button {
+  margin: 50px 0 0 auto;
+  display: block;
+}
+
 .footer-shield {
   padding: 50px 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 19px;
-  display: flex;
-  justify-content: space-between;
 }
