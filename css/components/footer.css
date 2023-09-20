@@ -4,12 +4,8 @@
   padding: 122px 0 140px;
 }
 
-.contactus-title {
+.contactus .sub-title {
   color: #FFFFFF;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 69px;
   margin-bottom: 60px;
 }
 

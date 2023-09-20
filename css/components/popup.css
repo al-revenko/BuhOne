@@ -1,4 +1,4 @@
-.popup-form {
+.popup {
   width: 733px;
   padding: 55px 95px 69px;
   background: #262626;
@@ -8,16 +8,18 @@
   box-sizing: border-box;
 }
 
+.popup-form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .popup-margin {
   margin: 0 0 18px;
 }
 
-.popup-form-title {
+.popup .sub-title {
   margin: 0 auto 64px;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 69px;
+  color: #FFFFFF;
 }
 
 .popup-form-label {
@@ -28,7 +30,7 @@
   display: flex;
 }
 
-.popup-form-feedback-container-estimate-title {
+.popup-form-feedback-container-estimate-legend {
   display: block;
   margin: 0 auto;
 }
