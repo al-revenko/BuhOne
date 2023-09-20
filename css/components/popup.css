@@ -1,0 +1,40 @@
+.popup-form {
+  width: 733px;
+  padding: 55px 95px 69px;
+  background: #262626;
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+}
+
+.popup-margin {
+  margin: 0 0 18px;
+}
+
+.popup-form-title {
+  margin: 0 auto 64px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 69px;
+}
+
+.popup-form-label {
+  display: block;
+}
+
+.popup-form-feedback-container-estimate {
+  display: flex;
+}
+
+.popup-form-feedback-container-estimate-title {
+  display: block;
+  margin: 0 auto;
+}
+
+.popup-form-button-container {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+}

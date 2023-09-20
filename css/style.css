@@ -6,6 +6,7 @@
 @import url(./components/review.css);
 @import url(./components/advantage.css);
 @import url(./components/footer.css);
+@import url(./components/popup.css);
 
 @font-face {
   font-family: 'lato';
@@ -23,6 +24,11 @@ body {
 input {
   width: 255px;
   padding: 0 0 15px;
+}
+
+input[type="radio"] {
+  width: 11px;
+  height: 11px;
 }
 
 textarea {

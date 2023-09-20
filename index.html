@@ -265,8 +265,8 @@
                             </li>
                         </ul>
                     </div>
-                        <form class="contactus-form" action="#">
-                            <div class="contactus-form-wrp">
+                    <form class="contactus-form" action="#">
+                        <div class="contactus-form-wrp">
                             <label>
                                 <span class="contactus-form-label">Имя</span>
                                 <input class="contactus-form-input-text" type="text" placeholder="Иван">
@@ -275,13 +275,13 @@
                                 <span class="contactus-form-label">Телефон</span>
                                 <input class="contactus-form-input-tel" type="tel" placeholder="+7-999-999-99-99">
                             </label>
-                            </div>
-                            <label>
-                                <span class="contactus-form-label">Сообщение</span>
-                                <textarea class="contactus-form-textarea" placeholder="Ваше сообщение"></textarea>
-                            </label>
-                                <button class="contactus-form-button button-blue" type="submit">Отправить сообщение</button>
-                        </form>
+                        </div>
+                        <label>
+                            <span class="contactus-form-label">Сообщение</span>
+                            <textarea class="contactus-form-textarea" placeholder="Ваше сообщение"></textarea>
+                        </label>
+                        <button class="contactus-form-button button-blue" type="submit">Отправить сообщение</button>
+                    </form>
                 </div>
             </div>
             <div class="footer-shield container-center flex-container jc-space-between">
@@ -289,6 +289,45 @@
                 <p>Разработано: BuhOne</p>
             </div>
         </footer>
+        <div style="margin: 0 600px;">
+            <form action="#" class="popup-form">
+                <h2 class="popup-form-title">Оставить отзыв</h2>
+                <div class="flex-container jc-space-between popup-margin">
+                    <div>
+                        <label for="firstname" class="popup-form-label">Имя</label>
+                        <input name="firstname" type="text" placeholder="Иван">
+                    </div>
+                    <div>
+                        <label for="lastname" class="popup-form-label">Фамилия</label>
+                        <input name="lastname" type="text" placeholder="Иванов">
+                    </div>
+                </div>
+                <div class="flex-container jc-space-between popup-margin">
+                    <div>
+                            <label for="email" class="popup-form-label">Email</label>
+                            <input name="email" type="email" placeholder="example@mail.com">
+                    </div>
+                    <div>
+                        <span class="popup-form-feedback-container-estimate-title">Все понравилось</span>
+                        <label>
+                            <input type="radio" name="popup-estimate">
+                            Да
+                        </label>
+                        <label>
+                            <input type="radio" name="popup-estimate">
+                            Нет
+                        </label>
+                    </div>
+                </div>
+                <label>
+                    Отзыв
+                    <textarea placeholder="Отзыв"></textarea>
+                </label>
+                <div class="popup-form-button-container">
+                <button class="button-blue" type="submit">Отправить отзыв</button>
+                </div>
+            </form>
+        </div>
     </main>
 </body>
 
