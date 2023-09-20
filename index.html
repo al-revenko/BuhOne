@@ -290,43 +290,45 @@
             </div>
         </footer>
         <div class="popup">
-            <h2 class="sub-title">Оставить отзыв</h2>
-            <form action="#" class="popup-form">
-                <div class="flex-container jc-space-between popup-margin">
-                    <div>
-                        <label for="firstname" class="popup-form-label">Имя</label>
-                        <input name="firstname" type="text" placeholder="Иван">
+            <div class="popup-window">
+                <h2 class="sub-title">Оставить отзыв</h2>
+                <form action="#" class="popup-window-form">
+                    <div class="flex-container jc-space-between popup-window-form-margin">
+                        <div>
+                            <label for="firstname" class="popup-window-form-label">Имя</label>
+                            <input name="firstname" type="text" placeholder="Иван">
+                        </div>
+                        <div>
+                            <label for="lastname" class="popup-window-form-label">Фамилия</label>
+                            <input name="lastname" type="text" placeholder="Иванов">
+                        </div>
                     </div>
-                    <div>
-                        <label for="lastname" class="popup-form-label">Фамилия</label>
-                        <input name="lastname" type="text" placeholder="Иванов">
+                    <div class="flex-container jc-space-between popup-window-form-margin">
+                        <div>
+                                <label for="email" class="popup-window-form-label">Email</label>
+                                <input name="email" type="email" placeholder="example@mail.com">
+                        </div>
+                        <fieldset>
+                            <legend class="popup-window-form-feedback-container-estimate-legend">Все понравилось</legend>
+                            <label>
+                                <input type="radio" name="popup-window-estimate" value="yes" id="like-yes">
+                                Да
+                            </label>
+                            <label>
+                                <input type="radio" name="popup-window-estimate" value="no" id="like-no">
+                                Нет
+                            </label>
+                        </fieldset>
                     </div>
-                </div>
-                <div class="flex-container jc-space-between popup-margin">
-                    <div>
-                            <label for="email" class="popup-form-label">Email</label>
-                            <input name="email" type="email" placeholder="example@mail.com">
+                    <label>
+                        Отзыв
+                        <textarea placeholder="Отзыв"></textarea>
+                    </label>
+                    <div class="popup-window-form-button-container">
+                    <button class="button-blue" type="submit">Отправить отзыв</button>
                     </div>
-                    <fieldset>
-                        <legend class="popup-form-feedback-container-estimate-legend">Все понравилось</legend>
-                        <label>
-                            <input type="radio" name="popup-estimate" value="yes" id="like-yes">
-                            Да
-                        </label>
-                        <label>
-                            <input type="radio" name="popup-estimate" value="no" id="like-no">
-                            Нет
-                        </label>
-                    </fieldset>
-                </div>
-                <label>
-                    Отзыв
-                    <textarea placeholder="Отзыв"></textarea>
-                </label>
-                <div class="popup-form-button-container">
-                <button class="button-blue" type="submit">Отправить отзыв</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </main>
 </body>
