@@ -1,6 +1,8 @@
 .contactus {
   background-color: #363635;
   background-image: url(/img/bg/city-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 122px 0 140px;
 }
 

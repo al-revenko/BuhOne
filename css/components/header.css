@@ -1,5 +1,14 @@
 .header {
   padding: 22px 0 31px;
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  height: 40px;
+  width: 40px;
+  margin: 0 30px 0 0;
+  display: flex;
 }
 
 .header-title {
@@ -8,20 +17,42 @@
   font-size: 36px;
   font-weight: 900;
   line-height: 50px;
+  margin: 0 185px 0 0;
 }
 
-.header-contact-link {
+.header-menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-menu-info {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.header-menu-info-link {
   text-decoration: none;
   color: inherit;
 }
 
-.header-contact-text {
+.header-menu-info-text {
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
 }
 
-.header-nav-link {
+.header-menu-nav {
+  margin: 22px 0 0 0;
+}
+
+.header-menu-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px
+}
+
+.header-menu-nav-list-item-link {
   text-decoration: none;
   color: #222222;
   text-transform: uppercase;

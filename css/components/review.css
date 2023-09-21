@@ -2,6 +2,19 @@
   padding: 174px 0 120px;
 }
 
+.review-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0;
+  align-items: end;
+}
+
+.review-control-slider {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+
 .review-slider-button {
   background: #005FA3;
   width: 10px;
@@ -34,9 +47,9 @@
 }
 
 .review-list-item {
-  width: 1110px;
-  height: 320px;
   padding: 45px 95px;
+  display: flex;
+  flex-direction: column;
 }
 
 .review-list-item-text {
@@ -46,13 +59,24 @@
   margin-bottom: 58px;
 }
 
-.review-list-item-author-name {
+.review-list-item-author {
+  display: flex;
+  gap: 35px;
+}
+
+.review-list-item-author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-list-item-author-info-name {
   font-size: 18px;
   font-weight: 900;
   line-height: 25px;
 }
 
-.review-list-item-author-position {
+.review-list-item-author-info-position {
   color: #4F4F4F;
   font-size: 14px;
   font-weight: 400;

@@ -18,37 +18,39 @@
     <header class="header container-center">
         <img class="header-img" src="./img/logo.svg" alt="">
         <p class="header-title">BuhOne</p>
-        <ul>
-            <li>
-                <a class="header-contact-link" href="tel:81112223344">
-                    <img src="./img/phone.svg" alt="phone">
-                    <span class="header-contact-text">8 (111) 222-33-44</span>
-                </a>
-            </li>
-            <li>
-                <img src="./img/clock.svg" alt="clock">
-                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
-            </li>
-            <li>
-                <a class="header-contact-link" href="mailto:order@buhone.ru">
-                    <img src="./img/convert.svg" alt="convert">
-                    <span class="header-contact-text">order@buhone.ru</span>
-                </a>
-            </li>
-            <li>
-                <img src="./img/point.svg" alt="point">
-                <span class="header-contact-text">Невский пр. 130</span>
-            </li>
-        </ul>
-        <nav>
-            <ul>
-                <li><a class="header-nav-link" href="#">Главная</a></li>
-                <li><a class="header-nav-link" href="#">услуги</a></li>
-                <li><a class="header-nav-link" href="#">кейсы</a></li>
-                <li><a class="header-nav-link" href="#">о компании</a></li>
-                <li><a class="header-nav-link" href="#">контакты</a></li>
+        <div class="header-menu-container">
+            <ul class="header-menu-info">
+                <li>
+                    <a class="header-menu-info-link" href="tel:81112223344">
+                        <img src="./img/phone.svg" alt="phone">
+                        <span class="header-menu-info-text">8 (111) 222-33-44</span>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/clock.svg" alt="clock">
+                    <span class="header-menu-info-text">Пн-Пт 10:00-18:00</span>
+                </li>
+                <li>
+                    <a class="header-menu-info-link" href="mailto:order@buhone.ru">
+                        <img src="./img/convert.svg" alt="convert">
+                        <span class="header-menu-info-text">order@buhone.ru</span>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/point.svg" alt="point">
+                    <span class="header-menu-info-text">Невский пр. 130</span>
+                </li>
             </ul>
-        </nav>
+            <nav class="header-menu-nav">
+                <ul class="header-menu-nav-list">
+                    <li><a class="header-menu-nav-list-item-link" href="#">Главная</a></li>
+                    <li><a class="header-menu-nav-list-item-link" href="#">услуги</a></li>
+                    <li><a class="header-menu-nav-list-item-link" href="#">кейсы</a></li>
+                    <li><a class="header-menu-nav-list-item-link" href="#">о компании</a></li>
+                    <li><a class="header-menu-nav-list-item-link" href="#">контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="desc">
@@ -152,8 +154,10 @@
         </section>
         <section class="review container-center">
             <h2 class="title">Отзывы</h2>
-            <h3 class="sub-title">Ваши благодарности</h3>
-            <button class="review-button button-blue" type="button">Оставить отзыв</button>
+            <div class="flex-container jc-space-between">
+                <h3 class="sub-title">Ваши благодарности</h3>
+                <button class="review-button button-blue" type="button">Оставить отзыв</button>
+            </div>
             <ul class="review-list">
                 <li class="review-list-item alter-bg">
                     <blockquote class="review-list-item-text">
@@ -165,9 +169,13 @@
                             Lorem Ipsum -
                             это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
                     </blockquote>
-                    <img src="./img/woman.png" alt="woman">
-                    <p class="review-list-item-author-name">Екатерина Иванова</p>
-                    <p class="review-list-item-author-position">Директор ООО “Раз-два”</p>
+                    <div class="review-list-item-author">
+                        <img src="./img/woman.png" alt="woman">
+                        <div class="review-list-item-author-info">
+                        <p class="review-list-item-author-info-name">Екатерина Иванова</p>
+                        <p class="review-list-item-author-info-position">Директор ООО “Раз-два”</p>
+                        </div>
+                    </div>
                 </li>
                 <li class="review-list-item alter-bg display-none">
                     <blockquote class="review-list-item-text">
@@ -179,9 +187,13 @@
                             Lorem Ipsum -
                             это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
                     </blockquote>
-                    <img src="./img/woman.png" alt="woman">
-                    <p class="review-list-item-author-name">Екатерина Иванова</p>
-                    <p class="review-list-item-author-position">Директор ООО “Раз-два”</p>
+                    <div class="review-list-item-author">
+                        <img src="./img/woman.png" alt="woman">
+                        <div class="review-list-item-author-info">
+                        <p class="review-list-item-author-info-name">Екатерина Иванова</p>
+                        <p class="review-list-item-author-info-position">Директор ООО “Раз-два”</p>
+                        </div>
+                    </div>
                 </li>
                 <li class="review-list-item alter-bg display-none">
                     <blockquote class="review-list-item-text">
@@ -193,9 +205,13 @@
                             Lorem Ipsum -
                             это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
                     </blockquote>
-                    <img src="./img/woman.png" alt="woman">
-                    <p class="review-list-item-author-name">Екатерина Иванова</p>
-                    <p class="review-list-item-author-position">Директор ООО “Раз-два”</p>
+                    <div class="review-list-item-author">
+                        <img src="./img/woman.png" alt="woman">
+                        <div class="review-list-item-author-info">
+                        <p class="review-list-item-author-info-name">Екатерина Иванова</p>
+                        <p class="review-list-item-author-info-position">Директор ООО “Раз-два”</p>
+                        </div>
+                    </div>
                 </li>
                 <li class="review-list-item alter-bg display-none">
                     <blockquote class="review-list-item-text">
@@ -207,21 +223,29 @@
                             Lorem Ipsum -
                             это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
                     </blockquote>
-                    <img src="./img/woman.png" alt="woman">
-                    <p class="review-list-item-author-name">Екатерина Иванова</p>
-                    <p class="review-list-item-author-position">Директор ООО “Раз-два”</p>
+                    <div class="review-list-item-author">
+                        <img src="./img/woman.png" alt="woman">
+                        <div class="review-list-item-author-info">
+                        <p class="review-list-item-author-info-name">Екатерина Иванова</p>
+                        <p class="review-list-item-author-info-position">Директор ООО “Раз-два”</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
-            <ul>
-                <li><button class="review-slider-button review-slider-button-active" type="button"></button></li>
-                <li><button class="review-slider-button" type="button"></button></li>
-                <li><button class="review-slider-button" type="button"></button></li>
-                <li><button class="review-slider-button" type="button"></button></li>
-            </ul>
-            <button class="review-slider-button-arrow" type="button"><img src="./img/arrow-left.svg"
-                    alt="back"></button>
-            <button class="review-slider-button-arrow review-slider-button-arrow-active" type="button"><img
-                    src="./img/arrow-right.svg" alt="next"></button>
+            <div class="review-control">
+                <ul class="review-control-slider">
+                    <li><button class="review-slider-button review-slider-button-active" type="button"></button></li>
+                    <li><button class="review-slider-button" type="button"></button></li>
+                    <li><button class="review-slider-button" type="button"></button></li>
+                    <li><button class="review-slider-button" type="button"></button></li>
+                </ul>
+                <div>
+                    <button class="review-slider-button-arrow" type="button"><img src="./img/arrow-left.svg"
+                            alt="back"></button>
+                    <button class="review-slider-button-arrow review-slider-button-arrow-active" type="button"><img
+                            src="./img/arrow-right.svg" alt="next"></button>
+                </div>
+            </div>
         </section>
         <section class="advantage alter-bg">
             <div class="container-center">
@@ -305,11 +329,12 @@
                     </div>
                     <div class="flex-container jc-space-between popup-window-form-margin">
                         <div>
-                                <label for="email" class="popup-window-form-label">Email</label>
-                                <input name="email" type="email" placeholder="example@mail.com">
+                            <label for="email" class="popup-window-form-label">Email</label>
+                            <input name="email" type="email" placeholder="example@mail.com">
                         </div>
                         <fieldset>
-                            <legend class="popup-window-form-feedback-container-estimate-legend">Все понравилось</legend>
+                            <legend class="popup-window-form-feedback-container-estimate-legend">Все понравилось
+                            </legend>
                             <label>
                                 <input type="radio" name="popup-window-estimate" value="yes" id="like-yes">
                                 Да
@@ -325,7 +350,7 @@
                         <textarea placeholder="Отзыв"></textarea>
                     </label>
                     <div class="popup-window-form-button-container">
-                    <button class="button-blue" type="submit">Отправить отзыв</button>
+                        <button class="button-blue" type="submit">Отправить отзыв</button>
                     </div>
                 </form>
             </div>

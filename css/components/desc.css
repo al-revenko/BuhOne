@@ -2,11 +2,14 @@
   padding: 170px 0;
   background-color: #686765;
   background-image: url(/img/bg/city-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .desc-text {
   color: #FFFFFF;
   margin: 0 0 131px;
+  width: 589px;
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 700;
