@@ -9,8 +9,9 @@
   gap: 30px 30px;
 }
 
-.service-item {
-  background: url(/img/bg/service-bg.jpg);
+.service-item-link {
+  text-decoration: none;
+  background-image: url(/img/bg/service-bg.jpg);
   background-size: cover;
   box-sizing: border-box;
   width: 350px;
@@ -18,15 +19,34 @@
   padding: 45px 45px;
   display: flex;
   align-items: end;
+  position: relative;
 }
 
-.service-item-title {
+.service-item-link::before {
+  content: '';
+  background-color: #005FA3A6;
+  opacity: 65%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.service-item-link:hover.service-item-link:before,
+.service-item-link:focus.service-item-link:before {
+  display: block;
+}
+
+
+.service-item-link:active {
+  opacity: 90%;
+}
+.service-item-link-title {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 900;
   line-height: 30px;
-}
-
-.service-item-link {
-  text-decoration: none;
+  position: relative;
 }

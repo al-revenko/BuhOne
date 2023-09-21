@@ -29,3 +29,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.desc-link:hover, 
+.desc-link:focus {
+  background: #06a0e7;
+}
+
+.desc-link:active {
+  opacity: 0.9;
+}
+
