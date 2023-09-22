@@ -4,6 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 122px 0 140px;
+  position: relative;
+  z-index: 0;
+}
+
+.contactus::before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
 }
 
 .contactus .sub-title {
@@ -27,6 +39,7 @@
 .contactus-item-link {
   text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 
@@ -67,4 +80,23 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 19px;
+}
+
+.contactus-item-icon {
+  fill: #FFFFFF;
+  width: 35px;
+  height: 24px;
+}
+
+.contactus-item-link:hover,
+.contactus-item-link:focus {
+  opacity: 0.8;
+}
+
+.contactus-item-link:active .contactus-item-text {
+  color: #f84848;
+}
+
+.contactus-item-link:active .contactus-item-icon {
+  fill: #f84848;
 }
