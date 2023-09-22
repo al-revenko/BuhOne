@@ -51,11 +51,14 @@
   margin-top: 30px;
 }
 
-.about-list-item:hover {
+.about-list-item:hover,
+.about-list-item:focus-within {
   background: #005FA3;
   color: #FFFFFF;
 }
 
-.about-list-item:hover .about-list-item-link {
+.about-list-item:hover .about-list-item-link, 
+.about-list-item:focus-within .about-list-item-link {
   color: #FFFFFF;
+  outline: none;
 }
