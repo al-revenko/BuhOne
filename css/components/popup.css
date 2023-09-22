@@ -13,7 +13,15 @@
   display: flex;
   flex-flow: column wrap;
   box-sizing: border-box;
+  position: relative;
 }
+
+.popup-window-cross {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 
 .popup-window-form {
   display: flex;
