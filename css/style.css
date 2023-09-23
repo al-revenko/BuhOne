@@ -26,11 +26,6 @@ input {
   padding: 0 0 15px;
 }
 
-input[type="radio"] {
-  width: 11px;
-  height: 11px;
-}
-
 textarea {
   width: 100%;
   min-height: 105px;
@@ -54,6 +49,57 @@ textarea {
 input::placeholder, 
 textarea::placeholder {
   color: #BDBDBD;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
+button:hover,
+button:focus{
+  background: #06a0e7;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+[type="radio"] {
+  display: none;
+}
+
+textarea:focus,
+[type='text']:focus,
+[type='email']:focus,
+[type='tel']:focus {
+  outline: 1px solid;
+}
+
+.radio-label {
+  position: relative;
+  display: flex;
+}
+
+.radio-label::before {
+  position: absolute;
+  content: '';
+  left: 8px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  left: -19px;
+  top: 3px;
+}
+
+[type="radio"]:checked + .radio-label::before {
+  background-color: #8F9CCB;
 }
 
 .container-center {
@@ -115,15 +161,3 @@ textarea::placeholder {
   display: none;
 }
 
-button {
-  cursor: pointer;
-}
-
-button:hover,
-button:focus{
-  background: #06a0e7;
-}
-
-button:active {
-  opacity: 0.9;
-}

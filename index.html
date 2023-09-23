@@ -256,16 +256,16 @@
             </ul>
             <div class="review-control">
                 <ul class="review-control-slider">
-                    <li><button class="review-slider-button review-slider-button-active" type="button"></button></li>
-                    <li><button class="review-slider-button" type="button"></button></li>
-                    <li><button class="review-slider-button" type="button"></button></li>
-                    <li><button class="review-slider-button" type="button"></button></li>
+                    <li><button class="review-control-slider-button" type="button" disabled></button></li>
+                    <li><button class="review-control-slider-button" type="button"></button></li>
+                    <li><button class="review-control-slider-button" type="button"></button></li>
+                    <li><button class="review-control-slider-button" type="button"></button></li>
                 </ul>
                 <div>
-                    <button class="review-slider-button-arrow" type="button"><img src="./img/arrow-left.svg"
-                            alt="back"></button>
-                    <button class="review-slider-button-arrow review-slider-button-arrow-active" type="button"><img
-                            src="./img/arrow-right.svg" alt="next"></button>
+                    <button class="review-control-slider-button-arrow" type="button" disabled><img
+                            src="./img/arrow-left.svg" alt="back"></button>
+                    <button class="review-control-slider-button-arrow" type="button"><img src="./img/arrow-right.svg"
+                            alt="next"></button>
                 </div>
             </div>
         </section>
@@ -325,16 +325,16 @@
                         <div class="contactus-form-wrp">
                             <label>
                                 <span class="contactus-form-label">Имя</span>
-                                <input class="contactus-form-input-text" type="text" placeholder="Иван">
+                                <input class="contactus-form-input-text" type="text" placeholder="Иван" required>
                             </label>
                             <label>
                                 <span class="contactus-form-label">Телефон</span>
-                                <input class="contactus-form-input-tel" type="tel" placeholder="+7-999-999-99-99">
+                                <input class="contactus-form-input-tel" type="tel" placeholder="+7-999-999-99-99" required>
                             </label>
                         </div>
                         <label>
                             <span class="contactus-form-label">Сообщение</span>
-                            <textarea class="contactus-form-textarea" placeholder="Ваше сообщение"></textarea>
+                            <textarea class="contactus-form-textarea" placeholder="Ваше сообщение" required></textarea>
                         </label>
                         <button class="contactus-form-button button-blue" type="submit">Отправить сообщение</button>
                     </form>
@@ -345,47 +345,51 @@
                 <p>Разработано: BuhOne</p>
             </div>
         </footer>
-        <div class="popup">
+        <div class="popup popup-close">
             <div class="popup-window">
-                <svg class="popup-window-cross" width="30" height="28" viewBox="0 0 30 28" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M0.664338 28L15 14.619L29.3357 28L30 27.3814L15.6633 13.9998L30 0.617771L29.3357 0L15 13.3806L0.664338 0L0 0.617771L14.3367 13.9998L0 27.3814L0.664338 28Z"
-                        fill="white" />
-                </svg>
+                <button class="popup-window-cross" type="button">
+                    <svg class="popup-window-cross-icon" width="30" height="28" viewBox="0 0 30 28"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.664338 28L15 14.619L29.3357 28L30 27.3814L15.6633 13.9998L30 0.617771L29.3357 0L15 13.3806L0.664338 0L0 0.617771L14.3367 13.9998L0 27.3814L0.664338 28Z" />
+                    </svg>
+                </button>
                 <h2 class="sub-title">Оставить отзыв</h2>
                 <form action="#" class="popup-window-form">
                     <div class="flex-container jc-space-between popup-window-form-margin">
                         <div>
                             <label for="firstname" class="popup-window-form-label">Имя</label>
-                            <input name="firstname" type="text" placeholder="Иван">
+                            <input name="firstname" type="text" placeholder="Иван" required>
                         </div>
                         <div>
                             <label for="lastname" class="popup-window-form-label">Фамилия</label>
-                            <input name="lastname" type="text" placeholder="Иванов">
+                            <input name="lastname" type="text" placeholder="Иванов" required>
                         </div>
                     </div>
                     <div class="flex-container jc-space-between popup-window-form-margin">
                         <div>
                             <label for="email" class="popup-window-form-label">Email</label>
-                            <input name="email" type="email" placeholder="example@mail.com">
+                            <input name="email" type="email" placeholder="example@mail.com" required>
                         </div>
-                        <fieldset>
-                            <legend class="popup-window-form-feedback-container-estimate-legend">Все понравилось
+                        <fieldset class="popup-window-form-feedback-container-estimate">
+                            <legend class="popup-window-form-feedback-container-estimate-legend">
+                                Все понравилось
                             </legend>
-                            <label>
+                            <div class="popup-window-form-feedback-container-estimate-radio-wrp">
                                 <input type="radio" name="popup-window-estimate" value="yes" id="like-yes">
-                                Да
-                            </label>
-                            <label>
+                                <label class="radio-label" for="like-yes">
+                                    Да
+                                </label>
                                 <input type="radio" name="popup-window-estimate" value="no" id="like-no">
-                                Нет
-                            </label>
+                                <label class="radio-label" for="like-no">
+                                    Нет
+                                </label>
+                            </div>
                         </fieldset>
                     </div>
                     <label>
                         Отзыв
-                        <textarea placeholder="Отзыв"></textarea>
+                        <textarea placeholder="Отзыв" required></textarea>
                     </label>
                     <div class="popup-window-form-button-container">
                         <button class="button-blue" type="submit">Отправить отзыв</button>
